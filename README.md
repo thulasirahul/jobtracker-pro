@@ -65,8 +65,6 @@
 - Authentication enabled (email/password)
 - Hosting with SPA (Single Page Application) setup
 
-> 🔐 Ensure your Firestore rules are secure (not in test mode for production).
-
 ---
 
 ## 🚀 How to Deploy
