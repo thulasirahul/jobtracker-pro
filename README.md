@@ -93,9 +93,5 @@ firebase deploy
 
 ## 👨‍💻 Author
 
-**Thulasi Rahul J**
-
-- 🔗 [LinkedIn](https://www.linkedin.com/in/thulasirahulj/)  
-- 💻 [GitHub](https://github.com/thulasirahul)
-
+© 2025 Thulasi Rahul J
 ---
