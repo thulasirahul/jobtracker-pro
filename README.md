@@ -92,7 +92,6 @@ firebase deploy
 
 **Thulasi Rahul J**
 
-- 📧 Email: chotumandela@gmail.com  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/thulasirahulj/)  
 - 💻 [GitHub](https://github.com/thulasirahul)
 
