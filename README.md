@@ -2,6 +2,8 @@
 
 **AI-powered job tracking platform with resume analysis, JD matching, and smart insights. Built using React and Firebase.**
 
+🟢 **Live Demo:** [https://jobtracker-pro-58e13.web.app/](https://jobtracker-pro-58e13.web.app/)
+
 ---
 
 ## 🚀 Features
@@ -37,7 +39,7 @@
 ### 📊 Dashboard
 ![Dashboard](./assets/screenshots/dashboard.png)
 
-### 📝 Resume Analyzer
+### 📄 Resume Analyzer
 ![Resume Analyzer](./assets/screenshots/analyzer.png)
 
 ### 🧠 JD Keyword Extractor
@@ -45,15 +47,15 @@
 
 ---
 
-## 📂 Folder Structure (simplified)
+## 📂 Folder Structure
 
 ```
 /src
 │
 ├── components/        # Navbar, Footer, Forms
 ├── pages/             # Dashboard, Tracker, Analyzer, Matcher
-├── firebase.js        # Firebase config
-├── App.jsx            # Main routing
+├── firebase.js        # Firebase config (now uses .env)
+├── App.jsx            # Main app routing
 └── index.html         # HTML entry point
 ```
 
@@ -63,26 +65,27 @@
 
 - Firestore with per-user access rules
 - Authentication enabled (email/password)
-- Hosting with SPA (Single Page Application) setup
+- Hosting configured for SPA routing
+- Environment variables stored in `.env`
 
 ---
 
-## 🚀 How to Deploy
+## 🚀 Deployment Guide
 
 ```bash
-# Install Firebase CLI
+# Install Firebase CLI globally
 npm install -g firebase-tools
 
 # Login to Firebase
 firebase login
 
-# Init Firebase (select Hosting, Firestore, Auth)
+# Initialize Firebase in your project
 firebase init
 
-# Build your project
+# Build your React app
 npm run build
 
-# Deploy to Firebase
+# Deploy to Firebase Hosting
 firebase deploy
 ```
 
